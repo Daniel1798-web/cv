@@ -6,7 +6,7 @@
             <section class="section-1">
             
                 <div class="sec-div">
-           <a href="#"> <img class="l" v-on:click="move" :src="logo.ruta"> </a>
+           <a target="_blank" href="https://wa.me/543516838934"> <img class="l" v-on:click="move" :src="logo.ruta"> </a>
 
           <h2 class="numero"  v-show="mostrar" > 351-683-8934</h2>
             </div>
