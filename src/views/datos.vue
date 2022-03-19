@@ -2,18 +2,10 @@
 <div class="padre ">
  
 
-    <section>
+    <section class="sec-picture">
          <div class="square2"></div>
-
- <div  >
+    <div>
         <img class="picture " src="@/assets/icons/p1.png" alt="foto personal">
-        
-     
-         <h1>Datos personales</h1>
-         <p >Nací en Málaga , me mude a Argentina con catorce años</p>
-         
-         
-
     </div>
     </section>
     
@@ -144,9 +136,15 @@
  
 }
 
+
+
 .container {
   position: relative;
   width: 50%;
+}
+
+.sec-picture{
+    width: 100%;
 }
 
 .picture{

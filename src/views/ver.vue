@@ -1,9 +1,10 @@
 <template>
-    <div>
+    <div class="padre">
         <div>
-                 <video class="videito" autoplay="autoplay" loop="loop" id="video_background" preload="auto">
-        <source src="@/assets/galaxy.mp4" />
-                 </video>
+           <section>
+               <div class="videito">holis</div>
+           </section>
+       
         </div>
     </div>
 </template>
@@ -19,9 +20,22 @@ export default {
 </script>
 
 <style scoped>
-.videito{
-    height: auto;
-    width: 100%;
-   
 
-}</style>
+.padre{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    border-bottom:  2px solid black;
+    
+}
+.videito{
+   
+  
+
+   height: auto;
+    width: 100%;
+    
+}
+
+
+</style>
