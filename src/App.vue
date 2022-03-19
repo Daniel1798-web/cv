@@ -7,7 +7,6 @@
 
 <last />
 <ver />
-<div ><div class="r">ddddddddddd</div></div>
 
 </div>
 </template>

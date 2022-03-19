@@ -148,8 +148,8 @@
 }
 
 .picture{
-    width: 300px;
-    border-radius: 20%;
+    width: 200px;
+    border-radius: 10%;
 }
 
 
