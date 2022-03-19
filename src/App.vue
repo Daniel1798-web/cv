@@ -4,7 +4,10 @@
 
 <heeader class="h" msg="tio"/>
 <datos />
+
 <last />
+<ver />
+<div ><div class="r">ddddddddddd</div></div>
 
 </div>
 </template>
@@ -12,6 +15,7 @@
 <script>
 import heeader from './views/heeder.vue'
 import datos from '@/views/datos.vue'
+import ver from '@/views/ver.vue'
 import last from '@/views/last.vue'
 
 export default {
@@ -19,7 +23,8 @@ export default {
   components: {
     heeader,
     datos,
-    last
+    last,
+    ver,
   }
 }
 </script>
@@ -39,6 +44,12 @@ export default {
   padding: 0%;
  
  
+}
+
+.r{
+  width:100% ;
+  height: 150%;
+  font-size: 150%;
 }
 
   .square2{

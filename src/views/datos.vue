@@ -25,9 +25,7 @@
 
 
         <p class="letras">{{presentacion}}</p>
-           <video class="videito" autoplay="autoplay" loop="loop" id="video_background" preload="auto">
-        <source src="@/assets/galaxy.mp4" />
-    </video>
+      
     
  
     </div>
@@ -142,6 +140,7 @@
 .padre{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr ;
+    border-bottom:  2px solid black;
  
 }
 
@@ -210,11 +209,7 @@
    
 }
 
-.videito{
-    height: auto;
-    width: 100%;
-    border-radius: 40%;
-}
+
 
 .sobremiText{
      display: flex;

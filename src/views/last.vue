@@ -100,7 +100,7 @@ export default{
     display: grid;
     grid-template-columns: 1fr ;
     color: rgb(255, 255, 255);
-    position: fixed;
+     position: fixed;
     border:2px solid rgb(45, 241, 232);
    
  
