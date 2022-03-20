@@ -40,6 +40,28 @@ export default {
 
 }
 
+body{
+      
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+    margin: 0%; 
+   
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 50rem), 1fr));
+    min-height: 100vh;
+   
+    position: relative;
+    padding-bottom: 2em;
+    
+  }
+
+ 
+  body::-webkit-scrollbar{
+    width: 0px;
+  }
+
 .h{
   background-color: #ffffff;
   margin: 0%;
