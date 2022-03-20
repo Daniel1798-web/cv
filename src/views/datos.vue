@@ -94,9 +94,10 @@
                     }
                 
                 ],
-                presentacion:`Hola! me llamo Daniel  Empecé a estudiar por mi cuenta Programación web hace dos años
-            de todas las tecnologías la que mas me intereso fue JavaScript,
-            me encantó las infinitas posibilidades que ofrece  y la cantidad de frameworks disponibles `
+                presentacion:`Hola, me llamo Daniel. Empecé a estudiar 
+                por mi cuenta Programación web hace dos años. De todas las tecnologías, 
+                la que más me interesó fue JavaScript, 
+                me encantó las infinitas posibilidades que ofrece y la cantidad de frameworks disponibles. `
             }
         },
         methods:{

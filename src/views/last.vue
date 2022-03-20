@@ -8,14 +8,14 @@
                 <div class="sec-div">
            <a target="_blank" href="https://wa.me/543516838934"> <img class="l" v-on:click="move" :src="logo.ruta"> </a>
 
-          <h2 class="numero"  v-show="mostrar" > 351-683-8934</h2>
+          <h2 class="numero"  > 351-683-8934</h2>
             </div>
             </section>
 
             <section class="section-2">
            <div class="section-div2">
         <a href="#"> <img class="l" v-on:click="move2" :src="gmail"> </a>
-        <h2 class="mail"  v-show="mostrar2" > d@gmail.com</h2>
+        <h2 class="mail"  > danrieloto@gmail.com</h2>
 
 
          </div >
@@ -25,7 +25,7 @@
         <section class="section-2">
             <div class="section-div2">
                 <a href="#"> <img class="l" v-on:click="move3" :src="ubicacion"> </a>
-           <h2 class="ubi" >  Córdoba,Centro  <p class="square2"> </p>  </h2>
+      >    <h2 class="ubi" > Córdoba,Centro    </h2>
 
             </div>
         </section>
@@ -123,9 +123,16 @@ export default{
 
     .numero{
        font-size-adjust: none;
+       position: relative;
        font-size: 25px;
        margin-left: 5px;
-       color:hsl(180, 55%, 27%);
+       animation-name:mymove;
+        animation-duration: 5s;
+        
+        animation-timing-function: cubic-bezier(0.075, 4.82, 1.165, 1);
+        color: rgb(224, 178, 24);
+        animation-iteration-count:1;
+        position: relative
      
     }
 
@@ -137,9 +144,22 @@ export default{
   .mail{
      
         text-align: center;
+        position: relative;
         max-width: 70px;
         margin-left: 5px;
+        animation-name:mymove;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+        color: rgb(224, 178, 24);
+        animation-iteration-count:1;
+        position: relative;
         
+  }
+
+  .mail:hover{
+      animation-name: colores;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
   }
 
   .square2{
@@ -151,45 +171,38 @@ export default{
 
     animation-name: mymove;
     position: relative;
-    animation-duration: 1s;
+    animation-duration: 10s;
+    
     animation-iteration-count: infinite;
 }
 
-  @keyframes colores{
-
-      0%{
-          color: aliceblue;
-            shadow:1px 3px rgb(0, 255, 242);
-      }
-
-      50%{
-          color: lightcoral;
-      }
-      
-      100%{
-          color: rgb(2, 243, 243);
-      }
-  }
-
-  @keyframes mymove{
-    0% {top: 0px; left: 0px;}
-
-    25%{left: px; top: 80%;}
   
 
+  @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
 
-}
+  @keyframes colores{ 0% {color: gold;} 25%{color: rebeccapurple; } 50%{color: tomato;} 100%{color: rgb(255, 22, 205);} }
 
   .ubi{
         text-align: center;
+        position: relative;
         max-width: 70px;
         margin-left: 5px;
-        animation-name:colores;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-
-
+        animation-name:mymove;
+        animation-duration: 5s;
+        
+        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+        color: rgb(224, 178, 24);
+        animation-iteration-count:1;
+        position: relative;
   }
+
+    .ubi:hover{
+                animation-iteration-count:infinite;
+                animation-name: colores;
+                animation-duration: 5s;
+
+    }
+  
 
     .sec-div{
         display: flex;
