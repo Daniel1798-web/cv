@@ -136,6 +136,12 @@ export default{
      
     }
 
+     .numero:hover{
+      animation-name: colores;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  }
+
   .section-div2{
       display: flex;
       justify-content: start;
