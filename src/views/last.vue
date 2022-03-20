@@ -15,7 +15,7 @@
             <section class="section-2">
            <div class="section-div2">
         <a href="#"> <img class="l" v-on:click="move2" :src="gmail"> </a>
-        <h2 class="mail"  v-show="mostrar2" > danrieloto@gmail.com</h2>
+        <h2 class="mail"  v-show="mostrar2" > d@gmail.com</h2>
 
 
          </div >
@@ -25,7 +25,7 @@
         <section class="section-2">
             <div class="section-div2">
                 <a href="#"> <img class="l" v-on:click="move3" :src="ubicacion"> </a>
-                <h2 v-show="mostrar3"  class="mail" > Córdoba,Centro</h2>
+           <h2 class="ubi" >  Córdoba,Centro  <p class="square2"> </p>  </h2>
 
             </div>
         </section>
@@ -136,9 +136,59 @@ export default{
 
   .mail{
      
-      text-align: center;
+        text-align: center;
         max-width: 70px;
         margin-left: 5px;
+        
+  }
+
+  .square2{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+
+    animation-name: mymove;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes colores{
+
+      0%{
+          color: aliceblue;
+            shadow:1px 3px rgb(0, 255, 242);
+      }
+
+      50%{
+          color: lightcoral;
+      }
+      
+      100%{
+          color: rgb(2, 243, 243);
+      }
+  }
+
+  @keyframes mymove{
+    0% {top: 0px; left: 0px;}
+
+    25%{left: px; top: 80%;}
+  
+
+
+}
+
+  .ubi{
+        text-align: center;
+        max-width: 70px;
+        margin-left: 5px;
+        animation-name:colores;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+
   }
 
     .sec-div{

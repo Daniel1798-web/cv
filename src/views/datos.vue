@@ -32,7 +32,7 @@
             <ul>
             <p v-show="enseñar " class="letras">{{icon.name}}</p>
 
-            <img @click="sh()"  class="im-icon" :src="icon.ruta"> 
+            <img  class="im-icon" :src="icon.ruta"> 
             
 
          
@@ -148,7 +148,9 @@
 }
 
 .picture{
-    width: 200px;
+    
+
+ width: 200px;
     border-radius: 10%;
 }
 
@@ -272,9 +274,7 @@
     width: 100%;
     margin-bottom:5px;
     font-size: 20px;
-    animation-name: colores;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+ 
   
 }
 
@@ -305,9 +305,9 @@ flex-grow: 1 200px;
 
 
 .im-icon:hover{
-    width: 90px;
+    width: 80px;
      animation-name: move;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
     
