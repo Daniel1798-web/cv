@@ -53,6 +53,7 @@ $letras-color: hsl(180, 55%, 13%);
 }
 
 
+
 .fre{
     background-color: rgb(67, 136, 121);
     display: inline;

@@ -50,6 +50,7 @@ body{
     gap: 1rem;
     grid-auto-rows: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 50rem), 1fr));
+   
     min-height: 100vh;
    
     position: relative;

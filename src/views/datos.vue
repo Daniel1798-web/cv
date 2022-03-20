@@ -226,9 +226,14 @@
     padding: 5px;
    flex-direction: column;
    margin-left: 100px;
+
+ 
    
    
 }
+
+  @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
+
 
 @media (min-width: 400px){
     .tecnologi-dad{
@@ -247,7 +252,7 @@
 
 .listaTecnologias{
         margin-bottom: 20px;
-  
+    
 }
 
 
@@ -257,7 +262,13 @@
     display: flex;
     height: 118px;
     
-    
+     animation-name:mymove;
+        animation-duration: 5s;
+        
+        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+        color: rgb(224, 178, 24);
+        animation-iteration-count:1;
+        position: relative;
 
 
     
