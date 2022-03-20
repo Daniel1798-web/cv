@@ -31,7 +31,7 @@ export default{
     data(){
         return{
             rutaGit:"https://github.com/Daniel1798-web",
-            rutaLink:"https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            rutaLink:"https://www.linkedin.com/in/daniel-oto-diaz-45282a21b/"
         }
     }
 }

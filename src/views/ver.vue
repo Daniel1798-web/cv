@@ -25,7 +25,6 @@ export default {
 
     display: grid;
     grid-template-columns: 1fr 2fr 1fr ;
-    border-bottom:  2px solid black;
     
 }
 .videito{
