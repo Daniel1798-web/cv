@@ -1,0 +1,50 @@
+
+@media (max-width:420px){ 
+    #app {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: hsl(180, 55%, 27%);
+        max-width: 100%;
+        min-height: 100vh;
+        max-height: 100vh;
+           background-color: purple;
+    }
+
+    body{
+        background-color: rgb(255, 255, 255);
+        padding: 0%;
+        margin: 0%; 
+        display: grid;
+        gap: 1rem;
+        grid-auto-rows: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 50rem), 1fr));
+        min-height: 100vh;
+        position: relative;
+        padding-bottom: 2em;
+      }
+    
+     
+      body::-webkit-scrollbar{
+        width: 0px;
+      }
+    
+    .h{
+      background-color: #ffffff;
+      margin: 0%;
+      padding: 0%;
+     
+     
+    }
+    
+    .r{
+      width:100% ;
+      height: 150%;
+      font-size: 150%;
+    }
+    
+    
+    
+
+
+}

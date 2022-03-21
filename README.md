@@ -29,3 +29,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         <li><img src="@/assets/sass.png" alt="sass icon"></li>
 
         "@/assets/angular.png"
+
+
+
+  

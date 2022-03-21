@@ -27,14 +27,6 @@ export default {
     grid-template-columns: 1fr 2fr 1fr ;
     
 }
-.videito{
-   
-  
-
-   height: auto;
-    width: 100%;
-    
-}
 
 
 </style>

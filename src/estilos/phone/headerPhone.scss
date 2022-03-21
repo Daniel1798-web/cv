@@ -1,0 +1,92 @@
+@media(max-width:420px){
+    $title-color:red;
+$letras-color: hsl(180, 55%, 13%);
+
+.f{
+    width: 420px;
+    height: 420px;
+    background-color: rgb(67, 136, 121);
+    display: flex;
+ 
+}
+
+
+
+.fre{
+    background-color: rgb(67, 136, 121);
+    display: block;
+    width: 100%;
+ 
+
+
+ 
+}
+
+.fre:hover{
+    animation-name: mymove2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+
+
+.fre .header-icon{
+    display: flex;
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.fre .header-icon .icons{
+width: 300px;
+height: auto;
+display: flex;
+justify-items: flex-end;
+align-items:center;
+justify-self:end;
+margin-left: 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.logo-link{
+   width: 25%;
+}
+
+
+
+
+
+
+
+nav{
+    display: flex;
+   
+    height: 90px;
+}
+
+nav .logo-container{
+    margin-left: 0px;
+}
+
+nav .logo-container img{
+    width: 200px;
+   
+}
+
+nav .profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 100%;
+}
+
+
+
+}

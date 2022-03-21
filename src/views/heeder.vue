@@ -3,6 +3,7 @@
 <div class="f">
 
     <header class="fre">
+        
   <section class="header-icon">
       <div class="icons">
           <a target="_blanck" :href=rutaLink><img class="logo-link" src="@/assets/icons/link.png" alt="logo"></a>
@@ -41,144 +42,9 @@ export default{
 
 
 <style lang="scss" scoped >
-$title-color:red;
-$letras-color: hsl(180, 55%, 13%);
 
-.f{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(67, 136, 121);
-    
- 
-}
+@import url('@/estilos/headerStyle.scss');
 
-
-
-.fre{
-    background-color: rgb(67, 136, 121);
-    display: inline;
-    width: 100%;
-    height: 140px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-
-
- 
-}
-
-.fre:hover{
- 
-        animation-name: mymove2;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    position: relative;
-}
-
-.fre .header-icon{
-    width: 100%;
-    height: 50px;
-    display: grid;
-    background-color: cadetblue;
-}
-
-.fre .header-icon .icons{
-width: 300px;
-height: auto;
-display: flex;
-justify-items: flex-end;
-align-items:center;
-justify-self:end;
-margin-right: 20px;
-}
-
-
-
-a{
-    text-decoration: none;
-    display: inline;
-    color: black;
-}
-
-.logo-link{
-   width: 25%;
-}
-
-
-
-
-
-.foto{
-    color: $title-color;
-    width:50%;
-    height: 50%;
-    border-radius: 25%;
-}
-
-nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 90px;
-}
-
-nav .logo-container{
-    margin-left: 50px;
-}
-
-nav .logo-container img{
-    width: 200px;
-    margin-top: 5px;
-}
-
-nav .profile{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 50px;
-    color: $letras-color;
-    font-size: 110%;
-}
-
-.square2{
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
-
-    animation-name: mymove;
-    position: relative;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes mymove{
-    0% { background-color: rgb(43, 121, 88);  box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);}
-
-    25%{background-color: rgb(50, 172, 131);  box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);}
-
-    50%{background-color: rgb(40, 163, 122);  box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);}
-
-    100%{background-color: rgb(25, 92, 70);  }
-
-    
-
-}
-
-
-@keyframes mymove2{
-    0% { background-color: rgb(43, 121, 88);  box-shadow:  1px 1px  10px 10px rgb(30, 145, 139); }
-
-    25%{background-color: rgb(50, 172, 131);  box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);}
-
-    50%{background-color: rgb(40, 163, 122);  box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);}
-
-    100%{background-color: rgb(25, 92, 70);  }
-
-    
-
-}
-
-
-
+@import url('@/estilos/phone/headerPhone.scss');
 
 </style>

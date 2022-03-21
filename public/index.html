@@ -17,27 +17,48 @@
     <!-- built files will be auto injected -->
   </body>
 <style>
-  body{
-      
-    background-color: rgb(255, 255, 255);
-    padding: 0%;
-    margin: 0%; 
-   
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
-    min-height: 100vh;
-   
-    position: relative;
-    padding-bottom: 2em;
-    
-  }
 
- 
-  body::-webkit-scrollbar{
-    width: 0px;
+  @media(max-width:420px) {
+    html{
+
+background-color: rgb(255, 247, 247);
+padding: 0%;
+margin: 0%; 
+
+display: grid;
+gap: 1rem;
+grid-auto-rows: 2rem;
+min-height: 100vh;
+grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+position: relative;
+padding-bottom: 2em;
+}
+
+body::-webkit-scrollbar{
+width: 0px;
+}
   }
+ 
+body{
+
+background-color: rgb(255, 255, 255);
+padding: 0%;
+margin: 0%; 
+
+display: grid;
+gap: 1rem;
+grid-auto-rows: 2rem;
+grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+min-height: 100vh;
+
+position: relative;
+padding-bottom: 2em;
+}
+
+
+body::-webkit-scrollbar{
+width: 0px;
+}
 </style>
  
 </html>

@@ -203,7 +203,6 @@
 
 .sobremi{
     text-align: center;
-    background-color: rgb(255, 255, 255);
    animation-name: move;
     animation-duration: 10s;
     animation-iteration-count: infinite;
