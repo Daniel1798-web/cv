@@ -6,7 +6,7 @@
 <datos />
 
 <last />
-<ver />
+
 
 </div>
 </template>
@@ -14,7 +14,6 @@
 <script>
 import heeader from './views/heeder.vue'
 import datos from '@/views/datos.vue'
-import ver from '@/views/ver.vue'
 import last from '@/views/last.vue'
 
 export default {
@@ -23,7 +22,7 @@ export default {
     heeader,
     datos,
     last,
-    ver,
+    
   }
 }
 </script>

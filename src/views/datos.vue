@@ -227,12 +227,18 @@
    flex-direction: column;
    margin-left: 100px;
 
- 
+      animation-name:mymove2;
+        animation-duration: 5s;
+        
+        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+        color: rgb(224, 178, 24);
+        animation-iteration-count:1;
+        position: relative;
    
    
 }
 
-  @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
+  @keyframes mymove2{ 0% {top: 100%; left: 0%; color: transparent }  25%{top: 0%; left: 0%; color:rgb(224, 178, 24) }}
 
 
 @media (min-width: 400px){
@@ -262,13 +268,7 @@
     display: flex;
     height: 118px;
     
-     animation-name:mymove;
-        animation-duration: 5s;
-        
-        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
-        color: rgb(224, 178, 24);
-        animation-iteration-count:1;
-        position: relative;
+
 
 
     
