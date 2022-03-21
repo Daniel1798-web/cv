@@ -4,9 +4,9 @@
 
     <section class="sec-picture">
          <div class="square2"></div>
-    <div>
-        <img class="picture " src="@/assets/icons/p1.png" alt="foto personal">
-    </div>
+    
+        <img class="picture cosa" src="@/assets/icons/p1.png" alt="foto personal">
+   
     </section>
     
     <section class="sobremi">
@@ -127,7 +127,9 @@
 
 </script>
 
-<style  lang="scss" scoped>
+<style  scoped>
+
+
 
 
 .padre{
@@ -240,107 +242,10 @@
   @keyframes mymove2{ 0% {top: 100%; left: 0%; color: transparent }  25%{top: 0%; left: 0%; color:rgb(224, 178, 24) }}
 
 
-@media (min-width: 400px){
-    .tecnologi-dad{
-        box-shadow:  1px 10px  20px 20px  rgb(30, 145, 139);
-    height: 100%;
-    width: 50%;
-   display: flex;
-    padding: 5px;
-   flex-direction: column;
-      margin-left: 150px;
-
-
-    }
-    
-}
-
-.listaTecnologias{
-        margin-bottom: 20px;
-    
-}
-
-
-
-.lista-div{
-    list-style:  none;
-    display: flex;
-    height: 118px;
-    
-
-
-
-    
-}
-
-
-
-.agrandar{
-    background-color: red;
-
-}
-
-.letras
-{
-    width: 100%;
-    margin-bottom:5px;
-    font-size: 20px;
- 
-  
-}
-
-@keyframes colores {
-
-    0%{
-        color: rgb(53, 129, 125);
-    }
-
-    20%{
-        color:rgb(22, 100, 74);
-    }
-
-    100%{
-        color: rgb(89, 240, 220);
-    }
-    
-}
-
-.im-icon{
-    width: 80px;
-    text-align: right;
-    display: flex;
-flex-basis: auto;
-flex-grow: 1 200px;
-}
-
-
-
-.im-icon:hover{
-    width: 80px;
-     animation-name: move;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-    
-
-    @keyframes move {
-
-        from{
-            left: 0px;
-
-        }
-
-         to{
-             width: 100%;
-         }
-        
-    }
 
 
 
 
-
-
-    
+@import url('../estilos/phone/datosPhone.css');
 
 </style>

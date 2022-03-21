@@ -32,4 +32,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-  
+  #app {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: hsl(180, 55%, 27%);
+        max-width: 100%;
+        min-height: 100vh;
+        max-height: 100vh;
+           background-color: purple;
+           display: block;
+          
+    }

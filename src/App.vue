@@ -28,11 +28,25 @@ export default {
 </script>
 
 <style >
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: hsl(180, 55%, 27%);
+        min-height: 100vh;
+        
+
+      
+  
+  } 
+   
 
 @import url('@/estilos/appStyle.scss');
 
-@import url('@/estilos/phone/appPrueba.scss');
-
+  
+@media (min-width:540px){ 
+@import url('@/estilos/phone/appPrueba.css');
+}
   
 
 
