@@ -91,7 +91,7 @@ export default{
     .padre-last{
         
     background-color: rgb(67, 136, 121);
-    display: inline;
+   
     width: 100%;
     height: 80px;
     padding: 10px;
