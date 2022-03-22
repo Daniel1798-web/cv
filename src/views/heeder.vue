@@ -8,6 +8,7 @@
       <div class="icons">
           <a target="_blanck" :href=rutaLink><img class="logo-link" src="@/assets/icons/link.png" alt="logo"></a>
           <a target="_blanck" :href=rutaGit><img class="logo-link" src="@/assets/icons/github.png"></a>
+          
       </div>
   </section>
   <nav>

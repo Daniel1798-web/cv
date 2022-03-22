@@ -7,9 +7,9 @@
     <section class="sobremi">
         <h1>Sobre Mí</h1>
     
-      
-    <div class="sobremiText">
+        <a target="_blanck" ><img class="picture" src="@/assets/icons/p1.png"></a>
 
+    <div class="sobremiText">
 
         <p class="letras">{{presentacion}}</p>
       
@@ -126,7 +126,7 @@
 
 
 .padre{
-    display: grid;
+    display:grid;
     grid-template-columns: 2fr 1fr ;
  
 }
@@ -143,7 +143,7 @@
 }
 
 .picture{
- width: 100%;
+ width: 100px;
 border-radius: 10%;
 }
 
