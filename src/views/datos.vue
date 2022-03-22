@@ -3,7 +3,7 @@
 
     <section class="sobremi">
 
-        <h1>Sobre Mí</h1>
+        <h1 class="literal-sobremi">Sobre Mí</h1>
             <div class="sobremiText">
         <p class="letras">{{presentacion}}</p>
     </div>
@@ -191,8 +191,13 @@ border-radius: 10%;
 .sobremi{
     text-align: center;
     width: 100%;
-        padding-bottom:  5px;
-   
+    padding-bottom:  5px;
+ 
+}
+
+.literal-sobremi{
+    padding: 0%;
+    margin-top:  10px;
 }
 
 .letras{
