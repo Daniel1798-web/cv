@@ -1,20 +1,11 @@
 <template >
 <div class="padre ">
- 
 
-    
-    
     <section class="sobremi">
+
         <h1>Sobre Mí</h1>
-    
-        <a target="_blanck" ><img class="picture" src="@/assets/icons/p1.png"></a>
-
-    <div class="sobremiText">
-
+            <div class="sobremiText">
         <p class="letras">{{presentacion}}</p>
-      
-    
- 
     </div>
     
     </section>
