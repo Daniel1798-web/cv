@@ -128,7 +128,7 @@ export default{
        margin-left: 5px;
        animation-name:mymove;
         animation-duration: 5s;
-        
+        max-width: 70px;
         animation-timing-function: cubic-bezier(0.075, 4.82, 1.165, 1);
         color: rgb(224, 178, 24);
         animation-iteration-count:1;
@@ -145,7 +145,7 @@ export default{
 
   .mail{
         font-size-adjust: none;
-      
+      max-width: 70px;
         position: relative;
        font-size: 25px;
         display:flex;
@@ -187,7 +187,7 @@ export default{
         margin-left: 5px;
         animation-name:mymove;
         animation-duration: 5s;
-        
+        max-width: 70px;
         animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
         color: rgb(224, 178, 24);
         animation-iteration-count:1;
