@@ -232,6 +232,9 @@ export default{
         
         
     }
+      .ubi:hover{
+        animation: none;
+    }
 
     
 
@@ -240,6 +243,9 @@ export default{
                 animation-name:none;
 
     }
+      .mail:hover{
+        animation: none;
+    }
 
      
 
@@ -247,9 +253,13 @@ export default{
         color: transparent;
         animation-name:none;
     }
+    .numero:hover{
+        animation: none;
+    }
 
      
     
+      @keyframes colores{ 0% {color: transparent;} 25%{color: transparent; } 50%{color: transparent;} 100%{color: transparent;} }
 
 
     }
