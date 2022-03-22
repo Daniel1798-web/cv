@@ -92,7 +92,7 @@
         .sobremiText{
              display: flex;
             flex-wrap: wrap;
-            font-size: 140%;
+            font-size: 100%;
             color: #000;
         }
         

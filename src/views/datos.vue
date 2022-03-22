@@ -83,7 +83,9 @@
                 presentacion:`Hola, me llamo Daniel. Empecé a estudiar 
                 por mi cuenta Programación web hace dos años. De todas las tecnologías, 
                 la que más me interesó fue JavaScript, 
-                me encantó las infinitas posibilidades que ofrece y la cantidad de frameworks disponibles. `
+                me encantó las infinitas posibilidades que ofrece y la cantidad de frameworks disponibles. 
+                
+                `
             }
         },
         methods:{
@@ -131,12 +133,14 @@
 
 .sec-picture{
     width: 100%;
+    display: inline-flex;
 }
 
 .picture{
  width: 100px;
 border-radius: 10%;
 }
+
 
 
 
@@ -186,19 +190,28 @@ border-radius: 10%;
 
 .sobremi{
     text-align: center;
-   animation-name: move;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    width: 100%;
+        padding-bottom:  5px;
    
 }
 
+.letras{
+     display: flex;
+    flex-wrap: wrap;
+    font-size: 140%;
+    width: 100%;
+    color: #000;
+    padding-bottom:  5px;
+}
 
 
 .sobremiText{
      display: flex;
     flex-wrap: wrap;
     font-size: 140%;
+    width: 100%;
     color: #000;
+    padding-bottom:  5px;
 }
 
 .tecnologi-dad{
