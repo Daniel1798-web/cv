@@ -216,7 +216,6 @@ export default{
     .ubi{
         color:transparent;
         animation-name:none;
-        max-width: 0px;
         font-size-adjust: none;
         position: relative;
         font-size: 25px;
@@ -231,10 +230,10 @@ export default{
     .mail{
         color: transparent;
         animation-name:none;
-        max-width: 0px;
         font-size-adjust: none;
         position: relative;
         font-size: 25px;
+        display: flex;
 
     }
       .mail:hover{
@@ -246,7 +245,6 @@ export default{
     .numero{
         color: transparent;
         animation-name:none;
-        max-width: 0px;
         font-size-adjust: none;
         position: relative;
         font-size: 25px;
