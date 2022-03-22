@@ -228,14 +228,29 @@ export default{
     @media(max-width:540px){
     .ubi{
         color:transparent;
+        animation-name:none;
+        
+        
     }
+
+    
+
     .mail{
         color: transparent;
+                animation-name:none;
+
     }
+
+     
 
     .numero{
         color: transparent;
+        animation-name:none;
     }
+
+     
     
+
+
     }
 </style>
