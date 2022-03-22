@@ -224,4 +224,18 @@ export default{
     list-style: none;
     
     }   
+
+    @media(max-width:540px){
+    .ubi{
+        color:transparent;
+    }
+    .mail{
+        color: transparent;
+    }
+
+    .numero{
+        color: transparent;
+    }
+    
+    }
 </style>

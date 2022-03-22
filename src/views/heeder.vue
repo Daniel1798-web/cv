@@ -12,7 +12,7 @@
   </section>
   <nav>
     <section class="logo-container" >
-      <a href="/"><img  src="@/assets/icons/logo2.png"></a>
+      <a href="#"><img  src="@/assets/icons/logo2.png"></a>
     </section>
    <section class="profile">
        <h1 >FRONT-END DEVELOPER JUNIOR</h1>
