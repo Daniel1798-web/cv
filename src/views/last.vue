@@ -229,7 +229,7 @@ export default{
     .ubi{
         color:transparent;
         animation-name:none;
-        
+        max-width: 0px;
         
     }
       .ubi:hover{
@@ -240,7 +240,8 @@ export default{
 
     .mail{
         color: transparent;
-                animation-name:none;
+        animation-name:none;
+        max-width: 0px;
 
     }
       .mail:hover{
@@ -252,6 +253,7 @@ export default{
     .numero{
         color: transparent;
         animation-name:none;
+        max-width: 0px;
     }
     .numero:hover{
         animation: none;
