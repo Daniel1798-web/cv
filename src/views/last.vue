@@ -136,11 +136,7 @@ export default{
      
     }
 
-     .numero:hover{
-      animation-name: colores;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-  }
+  
 
   .section-div2{
       display: flex;
@@ -162,11 +158,7 @@ export default{
         
   }
 
-  .mail:hover{
-      animation-name: colores;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-  }
+  
 
   .square2{
     width: 20px;
@@ -202,12 +194,7 @@ export default{
         position: relative;
   }
 
-    .ubi:hover{
-                animation-iteration-count:infinite;
-                animation-name: colores;
-                animation-duration: 5s;
-
-    }
+   
   
 
     .sec-div{
