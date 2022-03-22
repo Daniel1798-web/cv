@@ -144,11 +144,11 @@ export default{
   }
 
   .mail{
-     
-        text-align: center;
+        font-size-adjust: none;
+      
         position: relative;
-        max-width: 70px;
-        margin-left: 5px;
+       font-size: 25px;
+        display:flex;
         animation-name:mymove;
         animation-duration: 5s;
         animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);

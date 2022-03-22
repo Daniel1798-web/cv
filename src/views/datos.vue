@@ -5,29 +5,28 @@
 
         <h1 class="literal-sobremi">Sobre Mí</h1>
             <div class="sobremiText">
+                     <img   src="@/assets/icons/vue.png" > 
         <p class="letras">{{presentacion}}</p>
+               
+
     </div>
     
     </section>
-    
-<div class="tecnologi-dad">
+    <div class="tecnologi-dad">
+
     <section class="listaTecnologias" @mouseover="sh()" @mouseout="sh()">
         <h1 >Tecnologías</h1>
         <div class="lista-div " v-for="icon in icono" :key="icon">
              
             <ul>
-            <p v-show="enseñar " class="letras">{{icon.name}}</p>
-
-            <img  class="im-icon" :src="icon.ruta"> 
+            <img  class="im-icon" :src="icon.ruta" > 
             
-
-         
             </ul>
     
         </div>
     </section>
-</div>
 
+    </div>
   
 
 </div>
@@ -192,6 +191,7 @@ border-radius: 10%;
     text-align: center;
     width: 100%;
     padding-bottom:  5px;
+    margin: 0%;
  
 }
 

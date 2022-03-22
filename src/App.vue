@@ -34,6 +34,8 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     color: hsl(180, 55%, 27%);
         min-height: 100vh;
+        display:inline-flex;
+
         
 
       
