@@ -4,9 +4,9 @@
 
     <section class="sec-picture">
          <div class="square2"></div>
-    
-        <img class="picture cosa" src="@/assets/icons/p1.png" alt="foto personal">
-   
+    <div class="picC">
+        <img class="picture"  src="@/assets/icons/p1.png" alt="foto personal">
+    </div>
     </section>
     
     <section class="sobremi">
@@ -135,7 +135,6 @@
 .padre{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr ;
-    
  
 }
 
@@ -151,10 +150,10 @@
 }
 
 .picture{
-    
+    display: grid;
 
- width: 200px;
-    border-radius: 10%;
+ width: 300px;
+border-radius: 10%;
 }
 
 
@@ -244,8 +243,8 @@
 
 
 
-
-
 @import url('../estilos/phone/datosPhone.css');
+
+
 
 </style>
