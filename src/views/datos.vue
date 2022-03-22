@@ -2,12 +2,7 @@
 <div class="padre ">
  
 
-    <section class="sec-picture">
-         <div class="square2"></div>
-    <div class="picC">
-        <img class="picture"  src="@/assets/icons/p1.png" alt="foto personal">
-    </div>
-    </section>
+    
     
     <section class="sobremi">
         <h1>Sobre Mí</h1>
@@ -130,11 +125,9 @@
 <style  scoped>
 
 
-
-
 .padre{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-columns: 2fr 1fr ;
  
 }
 
@@ -150,9 +143,7 @@
 }
 
 .picture{
-    display: grid;
-
- width: 300px;
+ width: 100%;
 border-radius: 10%;
 }
 
@@ -239,9 +230,6 @@ border-radius: 10%;
 }
 
   @keyframes mymove2{ 0% {top: 100%; left: 0%; color: transparent }  25%{top: 0%; left: 0%; color:rgb(224, 178, 24) }}
-
-
-
 
 @import url('../estilos/phone/datosPhone.css');
 
