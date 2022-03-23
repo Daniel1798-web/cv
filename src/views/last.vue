@@ -1,5 +1,4 @@
 <template>
- 
     <div class="padre-last" v-for="logo in whatsapp" :key="logo">
         <div class="hijo-last">
 
@@ -218,7 +217,6 @@ export default{
     .ubi{
         color:transparent;
         animation-name:none;
-        font-size-adjust: none;
         position: relative;
         font-size: 25px;
         
@@ -232,7 +230,6 @@ export default{
     .mail{
         color: transparent;
         animation-name:none;
-        font-size-adjust: none;
         position: relative;
         font-size: 25px;
         display: flex;
@@ -247,18 +244,12 @@ export default{
     .numero{
         color: transparent;
         animation-name:none;
-        font-size-adjust: none;
         position: relative;
         font-size: 25px;
     }
     .numero:hover{
         animation: none;
     }
-
-     
-    
-      @keyframes colores{ 0% {color: transparent;} 25%{color: transparent; } 50%{color: transparent;} 100%{color: transparent;} }
-
 
     }
 </style>

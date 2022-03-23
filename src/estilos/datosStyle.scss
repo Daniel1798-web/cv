@@ -1,0 +1,74 @@
+
+.padre{
+display: flex;
+background-color: rgb(253, 255, 255);
+font-size: 140%;
+}
+
+.sobremi{
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letras{
+    width: 100%;
+    justify-content: center;
+}
+
+.espacio{
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(4, 145, 102);
+    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+
+    animation-name:mymove2;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(1.75, 4.82, 3.165, 5);
+
+    color: rgb(224, 178, 24);
+    animation-iteration-count:1;
+    position: relative;
+}
+
+.lista-div{
+   position: relative;
+}
+
+
+
+.square{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.square2{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+
+    animation-name: mymove;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove{
+    0% {top: 0%; left: 0%; color: transparent;}
+
+    25%{top: 0%; left: 100%; color:rgb(224, 178, 24) ;}
+
+}
+@keyframes mymove2{ 0% {top: 0%; left: 100%; color: transparent }  25%{top: 100%; left: 0%; color:rgb(224, 178, 24) }}

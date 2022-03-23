@@ -8,7 +8,7 @@ $letras-color: hsl(180, 55%, 13%);
     width: 100%;
     height: 100%;
     background-color: rgb(67, 136, 121);
-    
+    display: flex;
  
 }
 
@@ -19,8 +19,7 @@ $letras-color: hsl(180, 55%, 13%);
     display: inline;
     width: 100%;
     height: 140px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: grid; grid-template-rows: 1fr 1fr;
 
 
  

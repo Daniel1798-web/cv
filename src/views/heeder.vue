@@ -1,4 +1,5 @@
 <template>
+ <link href="../estilos/phone/headerPhone.scss" rel="stylesheet" media="screen and (min-width: 768px)"> 
 
 <div class="f">
 
@@ -28,7 +29,7 @@
 
 <script>
 export default{
-    name:"heeader",
+    name:"header",
 
     data(){
         return{
@@ -42,7 +43,7 @@ export default{
 
 
 
-<style lang="scss" scoped >
+<style lang="scss" scoped>
 
 @import url('@/estilos/headerStyle.scss');
 

@@ -11,27 +11,9 @@
         }
         
         
+       
         
-        .container {
-          position: relative;
-          width: 50%;
-        }
-        
-        .sec-picture{
-            width: 50%;
-        }
-        
-        .picC{
-          display: grid;
-          
-        }
-        
-        .picture{
-            
-        
-         width: 200px;
-        border-radius: 100%;
-        }
+     
         
         
         
@@ -73,46 +55,38 @@
         }
         
         
-        .hij{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            width: 100%;
-        }
+       
         
         .sobremi{
             text-align: center;
-           animation-name: move;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
+          
            
         }
-        
-        
-        
-        .sobremiText{
-             display: flex;
-            flex-wrap: wrap;
-            font-size: 100%;
-            color: #000;
+        .letras{
+            width: 100%;
+            justify-content: center;
+            color: black;
         }
         
-        .tecnologi-dad{
+        
+      
+        
+        .tecnologias{
             box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
-            height: 700px;
-           display: flex;
-            padding: 5px;
-           flex-direction: column;
-           margin-left: 100px;
-        
-              animation-name:mymove2;
-                animation-duration: 5s;
+            flex-direction:column;
+            animation-name:mymove2;
+            animation-duration: 5s;
                 
-                animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
-                color: rgb(224, 178, 24);
-                animation-iteration-count:1;
-                position: relative;
+            animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+            color: rgb(224, 178, 24);
+            animation-iteration-count:1;
+            position: relative;
+            margin-bottom: 40px;
            
-           
+        }
+
+        .lista-div{
+            position: relative;
         }
         
           @keyframes mymove2{ 0% {top: 100%; left: 0%; color: transparent }  25%{top: 0%; left: 0%; color:rgb(224, 178, 24) }}

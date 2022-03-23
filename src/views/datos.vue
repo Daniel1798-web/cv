@@ -1,33 +1,26 @@
 <template >
 <div class="padre ">
 
-    <section class="sobremi">
-
-        <h1 class="literal-sobremi">Sobre Mí</h1>
-            <div class="sobremiText">
-                     <img   src="@/assets/icons/vue.png" > 
+   
+    <div class="sobremi">
+        <h1 >sobre mi</h1>
         <p class="letras">{{presentacion}}</p>
-               
-
+        <h3>aqui mas cosas</h3>
     </div>
-    
-    </section>
-    <div class="tecnologi-dad">
 
-    <section class="listaTecnologias" @mouseover="sh()" @mouseout="sh()">
+   <div class="espacio"></div>
+    
+
+
+    <div class="tecnologias">
         <h1 >Tecnologías</h1>
-        <div class="lista-div " v-for="icon in icono" :key="icon">
+        <div class="lista-div" v-for="icon in icono" :key="icon">
              
-            <ul>
-            <img  class="im-icon" :src="icon.ruta" > 
             
-            </ul>
-    
+            <img  class="im-icon" :src="icon.ruta" > 
         </div>
-    </section>
-
     </div>
-  
+
 
 </div>
 
@@ -117,130 +110,8 @@
 <style  scoped>
 
 
-.padre{
-    display:grid;
-    grid-template-columns: 2fr 1fr ;
- 
-}
-
-
-
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.sec-picture{
-    width: 100%;
-    display: inline-flex;
-}
-
-.picture{
- width: 100px;
-border-radius: 10%;
-}
-
-
-
-
-.square{
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: black;
-    animation-name: move;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-
-.square2{
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
-
-    animation-name: mymove;
-    position: relative;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes mymove{
-    0% {top: 0px; left: 0px;}
-
-    25%{top: 0px; left: 97%;}
-
-    50%{top: 96%; left: 97%;}
-
-    75%{top: 96%; left: 0px;}
-
-    100%{top: 0px; left: 0px;}
-
-}
-
-
-.hij{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-}
-
-.sobremi{
-    text-align: center;
-    width: 100%;
-    padding-bottom:  5px;
-    margin: 0%;
- 
-}
-
-.literal-sobremi{
-    padding: 0%;
-    margin-top:  10px;
-}
-
-.letras{
-     display: flex;
-    flex-wrap: wrap;
-    font-size: 140%;
-    width: 100%;
-    color: #000;
-    padding-bottom:  5px;
-}
-
-
-.sobremiText{
-     display: flex;
-    flex-wrap: wrap;
-    font-size: 140%;
-    width: 100%;
-    color: #000;
-    padding-bottom:  5px;
-}
-
-.tecnologi-dad{
-    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
-    height: 700px;
-   display: flex;
-    padding: 5px;
-   flex-direction: column;
-   margin-left: 100px;
-
-      animation-name:mymove2;
-        animation-duration: 5s;
-        
-        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
-        color: rgb(224, 178, 24);
-        animation-iteration-count:1;
-        position: relative;
-   
-   
-}
-
-  @keyframes mymove2{ 0% {top: 100%; left: 0%; color: transparent }  25%{top: 0%; left: 0%; color:rgb(224, 178, 24) }}
-
-@import url('../estilos/phone/datosPhone.css');
+@import url('@/estilos/datosStyle.scss');
+@import url('@/estilos/phone/datosPhone.scss');
 
 
 
