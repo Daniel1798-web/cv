@@ -1,18 +1,29 @@
 <template >
 <div class="padre ">
-
    
     <div class="sobremi">
         <h1 >sobre mi</h1>
         <p class="letras">{{presentacion}}</p>
         <h3>aqui mas cosas</h3>
+        <div>
+        <button>Proyecto1</button>
+        </div>
     </div>
+
+    
 
    <div class="espacio"></div>
     
 
 
     <div class="tecnologias" >
+        <h1 class="te">Tecnologías</h1>
+        <div class="lista-div" v-for="icon in icono" :key="icon">
+        <img  class="im-icon" :src="icon.ruta" > 
+        </div>
+    </div>
+
+     <div class="tecnologias2" >
         <h1 class="te">Tecnologías</h1>
         <div class="lista-div" v-for="icon in icono" :key="icon">
         <img  class="im-icon" :src="icon.ruta" > 

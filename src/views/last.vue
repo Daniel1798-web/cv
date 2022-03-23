@@ -81,6 +81,8 @@ export default{
 
 @import url('@/estilos/lastStyle.scss');
 
+@import url('@/estilos/laptops/lastLaptop.scss');
+
 @import url('@/estilos/phone/lastPhone.scss');
 
 </style>
