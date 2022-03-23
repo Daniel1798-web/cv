@@ -1,0 +1,118 @@
+.padre-last{
+        
+    background-color: rgb(67, 136, 121);
+   
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    bottom: 0;
+    
+    display: grid;
+    grid-template-columns: 1fr ;
+     position: fixed;
+    border:2px solid rgb(45, 241, 232);
+   
+ 
+    }
+
+    .hijo-last{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+
+    
+
+   .l{
+       max-width: 70px;
+    }
+
+    .numero{
+    font-size-adjust: none;
+       position: relative;
+       font-size: 25px;
+       margin-left: 5px;
+       
+     
+    }
+
+  
+
+  .section-div2{
+      display: flex;
+      justify-content: start;
+  }
+
+  .mail{
+    font-size-adjust: none;
+        max-width: 70px;
+        position: relative;
+       font-size: 25px;
+    
+        
+        
+        
+  }
+
+  
+
+  .square2{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+
+    animation-name: mymove;
+    position: relative;
+    animation-duration: 10s;
+    
+    animation-iteration-count: infinite;
+}
+
+  
+
+  @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
+
+  @keyframes colores{ 0% {color: gold;} 25%{color: rebeccapurple; } 50%{color: tomato;} 100%{color: rgb(255, 22, 205);} }
+
+  .ubi{
+        text-align: center;
+        position: relative;
+        margin-left: 5px;
+        
+  }
+
+  .section-3{
+    color: hsl(180, 55%, 27%);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+
+  .section-div3{
+        display: flex;
+      justify-content: start;
+  }
+
+   
+  
+
+    .sec-div{
+        display: flex;
+    }
+
+    .section-2{
+    color: hsl(180, 55%, 27%);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+   
+    
+    }
+    .info{
+    list-style: none;
+    
+    }   
+
+
+

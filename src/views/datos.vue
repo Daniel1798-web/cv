@@ -12,12 +12,10 @@
     
 
 
-    <div class="tecnologias">
+    <div class="tecnologias" >
         <h1 >Tecnologías</h1>
         <div class="lista-div" v-for="icon in icono" :key="icon">
-             
-            
-            <img  class="im-icon" :src="icon.ruta" > 
+        <img  class="im-icon" :src="icon.ruta" > 
         </div>
     </div>
 

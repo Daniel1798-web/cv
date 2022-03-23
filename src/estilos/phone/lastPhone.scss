@@ -1,0 +1,34 @@
+
+@media(max-width:540px){
+    .padre-last{
+
+        background-color: rgb(67, 136, 121);
+   
+        width: 100%;
+        height: 80px;
+        padding: 0px;
+        bottom: 0;
+        
+        display: grid;
+        grid-template-columns: 1fr ;
+         position: fixed;
+        border:2px solid rgb(45, 241, 232);
+       
+
+    }
+
+    .numero{
+        display: none;
+    }
+
+    .mail{
+        display: none;
+    }
+
+    .ubi{
+        display: none;
+    }
+   
+    
+
+    }

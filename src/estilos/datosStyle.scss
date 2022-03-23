@@ -27,7 +27,7 @@ font-size: 140%;
     flex-direction: column;
     border: 2px solid rgb(4, 145, 102);
     box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
-
+    height: 700px;
     animation-name:mymove2;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(1.75, 4.82, 3.165, 5);
@@ -38,7 +38,9 @@ font-size: 140%;
 }
 
 .lista-div{
-   position: relative;
+ display: flex;
+justify-content: center;
+margin: 10px;
 }
 
 
