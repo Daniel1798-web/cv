@@ -32,9 +32,19 @@ font-size: 140%;
 
 .picture{
     width: 300px;
-    border-radius: 10%;
+    border-radius: 20%;
     height: 300px;
     display: flex;
+}
+
+.proye{
+    list-style: none;
+}
+
+.pictureAlmacen{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
 }
 
 .letras{

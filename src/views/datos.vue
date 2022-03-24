@@ -2,7 +2,12 @@
 <div class="padre "  v-bind:class=" tema ? 'negro' : 'blanco' " >
   <div class="marco">
    <img class="picture" src="@/assets/icons/p1.png">
-   
+    
+    <div>Proyectos
+        <ul class="proye">
+            <li class="proye"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></li>
+        </ul>
+    </div>
         
   </div>
     <div class="sobremi">

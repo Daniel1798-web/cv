@@ -30,6 +30,11 @@
             border-radius: 20%;
             text-align: center;
         }
+
+        .poye{
+            list-style: none;
+            
+        }
      
         
         
@@ -76,7 +81,8 @@
         
         .sobremi{
             text-align: center;
-          
+            flex-wrap: wrap;
+            justify-content: center;
            
         }
 
