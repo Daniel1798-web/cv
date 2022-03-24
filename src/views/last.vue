@@ -67,7 +67,7 @@ export default{
 
             mo()
             {
-                alert("cordoba")
+                alert("Cordoba,Centro")
             },
 
     },
