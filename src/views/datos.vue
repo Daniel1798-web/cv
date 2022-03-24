@@ -6,7 +6,7 @@
     <div>
         <h2 class="proyeh2">Proyectos</h2>
         <ul class="proye2">
-            <li class="proye"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></li>
+            <li class="proye"><a href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
         </ul>
     </div>
         
