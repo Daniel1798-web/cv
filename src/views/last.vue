@@ -20,7 +20,7 @@
 
     <section class="section-3">
         <div class="section-div3">
-            <a href="#"> <img class="la" v-on:click="move3" :src="ubicacion"> </a>
+            <a href="#"> <img class="la" v-on:click="mo" :src="ubicacion"> </a>
             <h2 class="ubi" > Córdoba,Centro    </h2>
         </div>
     </section>
@@ -65,10 +65,9 @@ export default{
             console.log("gola")
             },
 
-            move3()
+            mo()
             {
-                    this.mostrar3 = !this.mostrar3
-            console.log("gola")
+                alert("cordoba")
             },
 
     },
