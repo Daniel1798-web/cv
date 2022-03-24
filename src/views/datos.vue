@@ -1,12 +1,12 @@
 <template >
-<div class="padre ">
+<div class="padre "  >
    
     <div class="sobremi">
         <h1 >sobre mi</h1>
         <p class="letras">{{presentacion}}</p>
-        <h3>aqui mas cosas</h3>
+        <h3 >aqui mas cosas</h3>
         <div>
-        <button>Proyecto1</button>
+        <button v-on:Click="togle">Proyecto1</button>
         </div>
     </div>
 
@@ -40,12 +40,14 @@
 <script>
     export default{
         name:"datos",
-      
+        
 
         data(){
             return{
                 tecnologi:false,
                   enseñar: false,
+                  tema:false,
+                 
                 icono:[
                     
                     {
@@ -109,6 +111,10 @@
                    
                 },
 
+                togle(){
+                    this.tema = !this.tema
+                 console.log("hola")
+                }
 
         },
 

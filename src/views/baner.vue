@@ -12,7 +12,7 @@
           
       </div>
   </section>
-  <nav>
+  <nav class="na">
     <section class="logo-container" >
       <a href="#"><img  src="@/assets/icons/logo2.png"></a>
     </section>
@@ -29,7 +29,7 @@
 
 <script>
 export default{
-    name:"header",
+    name:"baner",
 
     data(){
         return{

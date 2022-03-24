@@ -2,7 +2,7 @@
 
   
 
-<heeader class="h" msg="tio"/>
+<baner/>
 <datos />
 
 <last />
@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import heeader from './views/heeder.vue'
+import baner from './views/baner.vue'
 import datos from '@/views/datos.vue'
 import last from '@/views/last.vue'
 
 export default {
   name: 'App',
   components: {
-    heeader,
+    baner,
     datos,
     last,
     
