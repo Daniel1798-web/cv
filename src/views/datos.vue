@@ -3,8 +3,9 @@
   <div class="marco">
    <img class="picture" src="@/assets/icons/p1.png">
     
-    <div>Proyectos
-        <ul class="proye">
+    <div>
+        <h2 class="proyeh2">Proyectos</h2>
+        <ul class="proye2">
             <li class="proye"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></li>
         </ul>
     </div>
