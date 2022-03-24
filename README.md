@@ -51,7 +51,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-    animation-name:mymove;
+        animation-name:mymove;
         animation-duration: 5s;
         max-width: 70px;
         animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);

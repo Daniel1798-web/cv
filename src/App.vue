@@ -1,9 +1,9 @@
-<template>
+<template class="black">
 
   
 
 <baner/>
-<datos />
+<datos v-bind:class="tema ? 'negro' : 'blanco' " tema=false />
 
 <last />
 
@@ -18,12 +18,31 @@ import last from '@/views/last.vue'
 
 export default {
   name: 'App',
+ 
+  
   components: {
     baner,
     datos,
     last,
     
-  }
+  },
+  data(){
+    return{
+      tema:false,
+      boto:false,
+    }
+
+    
+  },
+
+  methods:{
+        sec(){
+          this.tema = !this.tema
+          console.log("soy app")
+          this.boto = !this.boto
+        }
+    }
+ 
 }
 </script>
 
@@ -34,6 +53,7 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     color: hsl(180, 55%, 27%);
         min-height: 100vh;
+   
        
 
         
@@ -41,6 +61,8 @@ export default {
       
   
   } 
+
+
    
 
 @import url('@/estilos/appStyle.scss');

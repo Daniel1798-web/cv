@@ -1,0 +1,25 @@
+@media(max-width:1000px){ 
+
+    .padre{
+        display: flex;
+       
+       padding-bottom: 10px;
+     
+    }
+    
+
+  .picture{
+      display: flex;
+      width: 200px;
+      height: 200px;
+      border-radius: 10%;
+  }
+
+  .espacio{
+    width: 0%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+}

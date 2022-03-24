@@ -1,18 +1,21 @@
-<template >
-<div class="padre "  >
+<template  >
+<div class="padre "  v-bind:class=" tema ? 'negro' : 'blanco' " >
+  <div class="marco">
+   <img class="picture" src="@/assets/icons/p1.png">
    
+        
+  </div>
     <div class="sobremi">
         <h1 >sobre mi</h1>
-        <p class="letras">{{presentacion}}</p>
-        <h3 >aqui mas cosas</h3>
-        <div>
-        <button v-on:Click="togle">Proyecto1</button>
-        </div>
+        
+        <p class="letras" v-bind:class="tema ? 'letrasdark' : 'letras' ">{{presentacion}}</p>
+        
     </div>
 
     
 
-   <div class="espacio"></div>
+   <div class="espacio">
+</div>
     
 
 
@@ -40,14 +43,14 @@
 <script>
     export default{
         name:"datos",
+      
+
         
 
         data(){
             return{
-                tecnologi:false,
-                  enseñar: false,
-                  tema:false,
-                 
+                sol:require("@/assets/icons/modo.png"),
+                tema:false,
                 icono:[
                     
                     {
@@ -110,11 +113,14 @@
                     console.log("hola")
                    
                 },
-
-                togle(){
-                    this.tema = !this.tema
-                 console.log("hola")
+                selected(){
+                console.log("hi")
+                this.tema = !this.tema
                 }
+                
+              
+
+           
 
         },
 
@@ -126,6 +132,7 @@
 
 
 @import url('@/estilos/datosStyle.scss');
+@import url('@/estilos/laptops/datoslaptop.scss');
 @import url('@/estilos/phone/datosPhone.scss');
 
 

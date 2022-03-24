@@ -12,7 +12,7 @@
     <section class="section-2">
         <div class="section-div2">
 
-        <a href="#"> <img class="l" v-on:click="move2" :src="gmail"> </a>
+        <a href="#"> <img class="la" v-on:click="move2" :src="gmail"> </a>
         <h2 class="mail"  > danrieloto@gmail.com</h2>
         </div >     
     </section>
@@ -20,7 +20,7 @@
 
     <section class="section-3">
         <div class="section-div3">
-            <a href="#"> <img class="l" v-on:click="move3" :src="ubicacion"> </a>
+            <a href="#"> <img class="la" v-on:click="move3" :src="ubicacion"> </a>
             <h2 class="ubi" > Córdoba,Centro    </h2>
         </div>
     </section>

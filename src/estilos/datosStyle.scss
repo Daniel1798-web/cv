@@ -1,6 +1,4 @@
-.negro{
-    background-color: black;
-}
+
 
 .blanco{
     background-color: white;
@@ -13,6 +11,19 @@ background-color: rgb(253, 255, 255);
 font-size: 140%;
 }
 
+.negro{
+    background-color: rgb(1, 32, 3);
+}
+
+.letrasdark{
+    color: white;
+    justify-content: center;
+}
+
+.mode{
+    background-color: rgb(1, 41, 29);
+}
+
 .sobremi{
     margin-left: 20px;
     flex-wrap: wrap;
@@ -20,8 +31,9 @@ font-size: 140%;
 }
 
 .picture{
-    width: 200px;
+    width: 300px;
     border-radius: 10%;
+    height: 300px;
     display: flex;
 }
 
