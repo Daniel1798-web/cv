@@ -22,14 +22,17 @@
     <div class="tecnologias" >
         <h1 class="te">Tecnologías</h1>
         <div class="lista-div" v-for="icon in icono" :key="icon">
-        <img  class="im-icon" :src="icon.ruta" > 
+                        <p v-show="enseñar">{{icon.name}}</p>
+
+        <img  class="im-icon" :src="icon.ruta"  v-on:click="sh" > 
         </div>
     </div>
 
      <div class="tecnologias2" >
         <h1 class="te">Tecnologías</h1>
         <div class="lista-div" v-for="icon in icono" :key="icon">
-        <img  class="im-icon" :src="icon.ruta" > 
+            <p v-show="enseñar">{{icon.name}}</p>
+        <img  class="im-icon" :src="icon.ruta" v-on:click="sh"  > 
         </div>
     </div>
 
@@ -51,6 +54,7 @@
             return{
                 sol:require("@/assets/icons/modo.png"),
                 tema:false,
+                enseñar:false,
                 icono:[
                     
                     {
