@@ -5,6 +5,7 @@
     
     <div>
         <h2 class="proyeh2">Proyectos</h2>
+    
         <ul class="proye2">
             <li class="proye"><a target="_blanck" href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
         </ul>
@@ -16,11 +17,21 @@
         
         <p class="letras" v-bind:class="tema ? 'letrasdark' : 'letras' ">{{presentacion}}</p>
         
+                 <div >
+     <h2 class="proyePhone">Proyectos</h2>
+        <ul class="proyePhone2">
+            <li class="proyePhone3"><a target="_blanck" href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
+        </ul>
     </div>
+
+
+    </div>
+     
 
     
 
    <div class="espacio">
+     
 </div>
     
 

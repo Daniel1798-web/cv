@@ -24,24 +24,49 @@
        
         .picture{
             margin: auto;
-            
+            margin-top: 5px;
+            border: 2px solid rgb(11, 104, 11);
+            box-shadow: 2px 2px rgb(25, 175, 163);
             width: 200px;
             height: 200px;
             border-radius: 20%;
             text-align: center;
         }
 
-        .poye{
+        
+
+        .proye{
             list-style: none;
             margin: auto;
+            display: none;
             
         }
 
         .proyeh2{
+            display: none;
             margin-left: 5px;
             text-align: center;
         }
-     
+
+        .proyePhone{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .proyePhone2{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .proyePhone3{
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
         
         
         
