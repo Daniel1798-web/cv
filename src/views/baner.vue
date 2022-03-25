@@ -1,5 +1,4 @@
 <template>
- <link href="../estilos/phone/headerPhone.scss" rel="stylesheet" media="screen and (min-width: 768px)"> 
 
 <div class="f">
 
