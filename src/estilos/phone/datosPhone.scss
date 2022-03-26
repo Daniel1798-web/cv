@@ -33,8 +33,12 @@
             text-align: center;
         }
 
+        
+
         .pictureAlmacen{
             border: 2px solid rgb(11, 104, 11);
+            margin: auto;
+            justify-content: center;
             box-shadow: 2px 2px rgb(25, 175, 163);
         }
 
@@ -57,12 +61,14 @@
             display: flex;
             justify-content: center;
             text-align: center;
+            
         }
 
         .proyePhone2{
             display: flex;
             justify-content: center;
             text-align: center;
+            
         }
 
         .proyePhone3{
@@ -70,6 +76,7 @@
             justify-content: center;
             flex-direction: column;
             text-align: center;
+            margin: auto;
           
         }
 
