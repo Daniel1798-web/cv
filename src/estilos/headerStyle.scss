@@ -9,6 +9,9 @@ $letras-color: hsl(180, 55%, 13%);
     height: 100%;
     background-color: rgb(67, 136, 121);
     display: flex;
+    position: fixed;
+    top: 0;
+    
     
  
 }
@@ -19,10 +22,11 @@ $letras-color: hsl(180, 55%, 13%);
     background-color: rgb(67, 136, 121);
     display: inline;
     width: 100%;
-    height: 140px;
+    height: 100px;
     display: grid; grid-template-rows: 1fr 1fr;
 
-
+    position: fixed;
+    top: 0;
  
 }
 
@@ -30,7 +34,7 @@ $letras-color: hsl(180, 55%, 13%);
 
 .fre .header-icon{
     width: 100%;
-    height: 50px;
+    height: 30px;
     display: grid;
     background-color: cadetblue;
 }
@@ -43,6 +47,7 @@ justify-items: flex-end;
 align-items:center;
 justify-self:end;
 margin-right: 20px;
+margin-top: 2px;
 }
 
 
@@ -54,7 +59,7 @@ a{
 }
 
 .logo-link{
-   width: 25%;
+   width: 20%;
 }
 
 
@@ -80,16 +85,15 @@ nav .logo-container{
 }
 
 nav .logo-container img{
-    width: 200px;
+    width: 150px;
     margin-top: 5px;
 }
 
 nav .profile{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
-    color: $letras-color;
+    color: black;
     font-size: 110%;
 }
 

@@ -57,3 +57,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
         color: rgb(224, 178, 24);
         animation-iteration-count:1;
+
+
+
+
+
+
+
+           font-size-adjust: none;
+      position: relative;
+      font-size: 20px;
+      margin-left: 5px;
+    
+      animation-name:mymove2;
+      animation-duration: 2s;
+      animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+      color: rgb(224, 178, 24);
+      animation-iteration-count:1;

@@ -50,7 +50,8 @@ a{
 }
 
 .logo-link{
-   width: 25%;
+    margin-top: 5px;
+   width: 20%;
 }
 
 
@@ -70,14 +71,15 @@ nav .logo-container{
 }
 
 nav .logo-container img{
-    width: 200px;
+    width: 150px;
+    margin-left: 5px;
    
 }
 
 nav .profile{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    margin-right: 0px;
     font-size: 100%;
 }
 

@@ -1,44 +1,54 @@
 .padre-last{
         
     background-color: rgb(67, 136, 121);
-   
+    border-top: 2px solid rgb(8, 255, 234);
+
     width: 100%;
-    height: 80px;
-    padding: 10px;
+    height: 55px;
     bottom: 0;
-    
     display: grid;
     grid-template-columns: 1fr ;
      position: fixed;
-    border:2px solid rgb(45, 241, 232);
    
  
     }
 
     .hijo-last{
         display: grid;
+        flex-direction: row;
         grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 100%;
 
     }
+    .section-1{
+     display: flex;
+    }
+    
+    .sec-div{
+      display: flex;
+      margin-bottom: 100%;
+
+  }
 
 
     .la{
         margin-left: 10px;
-        max-width: 70px;
+       
+        max-width: 50px;
     }
 
     
 
    .l{
-       max-width: 70px;
+       max-width: 50px;
     }
 
     .numero{
       font-size-adjust: none;
        position: relative;
        font-size: 25px;
+       margin-bottom: 500px;
        margin-left: 5px;
-
        animation-name:mymove2;
        animation-duration: 2s;
        
@@ -49,94 +59,99 @@
      
     }
 
-  
+    .section-2{
+      color: hsl(180, 55%, 27%);
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+     
+      
+      }
 
   .section-div2
   {
     display: flex;
     justify-content: start;
   }
+  
+  .dm{
+    margin-bottom: 300px;
+    padding-bottom: 100%;
+  }
 
   .mail{
 
-      font-size-adjust: none;
-      max-width: 70px;
-      position: relative;
-      font-size: 25px;
-      margin-left: 5px;
-    
-      animation-name:mymove2;
-      animation-duration: 2s;
-      animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
-      color: rgb(224, 178, 24);
-      animation-iteration-count:1;
-      
-  }
-
-  
-
-  .square2{
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
-
-    animation-name: mymove;
+   
+    font-size-adjust: none;
     position: relative;
-    animation-duration: 10s;
+    font-size: 20px;
+    margin-left: 5px;
+    animation-name:mymove2;
+    animation-duration: 2s;
     
-    animation-iteration-count: infinite;
-}
-
+    animation-timing-function: cubic-bezier(0.001, 0.82, 1.165, 1);
+    color: rgb(224, 178, 24);
+    animation-iteration-count:1;
+      
+  }
+ 
   
 
-  @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
-
-  @keyframes colores{ 0% {color: gold;} 25%{color: rebeccapurple; } 50%{color: tomato;} 100%{color: rgb(255, 22, 205);} }
-
-  .ubi{
-        text-align: center;
-        position: relative;
-        margin-left: 5px;
-      
-        animation-name:mymove2;
-        animation-duration: 2s;
-        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
-        color: rgb(224, 178, 24);
-        animation-iteration-count:1;
-        
-  }
-
+ 
+  
   .section-3{
     color: hsl(180, 55%, 27%);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+ 
   }
 
   .section-div3{
         display: flex;
       justify-content: start;
+
   }
 
    
+  .ubi{
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+    font-size: 20px;
+    animation-name:mymove2;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
+    color: rgb(224, 178, 24);
+    animation-iteration-count:1;
+  }
   
 
-    .sec-div{
-        display: flex;
-    }
 
-    .section-2{
-    color: hsl(180, 55%, 27%);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-   
-    
-    }
+  
     .info{
     list-style: none;
     
     }   
+    
 
+    .square2{
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      background-color: black;
+      box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+  
+      animation-name: mymove;
+      position: relative;
+      animation-duration: 10s;
+      
+      animation-iteration-count: infinite;
+  }
+  
+    
+  
+    @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
+  
+    @keyframes colores{ 0% {color: gold;} 25%{color: rebeccapurple; } 50%{color: tomato;} 100%{color: rgb(255, 22, 205);} }
+    
 
 

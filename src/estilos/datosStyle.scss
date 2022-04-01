@@ -9,6 +9,8 @@
 display: flex;
 background-color: rgb(253, 255, 255);
 font-size: 140%;
+margin-top: 100px;
+position: fixed;
 }
 
 .negro{
@@ -32,9 +34,9 @@ font-size: 140%;
 }
 
 .picture{
-    width: 300px;
+    width: 200px;
     border-radius: 20%;
-    height: 300px;
+    height: 200px;
     display: flex;
  
    
@@ -90,8 +92,7 @@ font-size: 140%;
 .tecnologias{
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(4, 145, 102);
-    box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+    box-shadow:  1px 0px  40px  rgb(77, 77, 77);
     height: 800px;
     animation-name:mymove2;
     animation-duration: 3s;

@@ -12,8 +12,11 @@
     <section class="section-2">
         <div class="section-div2">
 
-        <a href="mailto:danrieloto@gmail.com"> <img class="la" v-on:click="move2" :src="gmail"> </a>
-        <h2 class="mail"  > danrieloto@gmail.com</h2>
+        <a href="mailto:danrieloto@gmail.com"> 
+            <img class="la" v-on:click="move2" :src="gmail"> </a>
+            <div class="dm">
+           <h2 class="mail"  >  danrieloto@gmail.com    </h2>
+            </div>
         </div >     
     </section>
         
