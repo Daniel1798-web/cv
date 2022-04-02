@@ -125,8 +125,6 @@ margin: 30px;
 
 }
 
-.lista-div::after{
-}
 
 
 .cosa1:hover{
@@ -159,6 +157,12 @@ margin: 30px;
     animation-name: agrandar;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+.ti{
+    margin: 0;
+    text-align: center;
+    margin-right: 10px;
 }
 
 

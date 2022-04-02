@@ -36,11 +36,12 @@
     
 
 
-    <div class="tecnologias" >
-        <h1 class="te">Tecnologías</h1>
-        <div class="lista-div" v-for="icon in icono" :key="icon" >
-      <img  :class="icon.clase" :src="icon.ruta"  v-on:click="sh" > 
-            <p v-show="enseñar">{{icon.name}}</p>
+<div class="tecnologias">
+    <h1 class="te" >Tecnologías</h1>
+        <div class="lista-div" v-for="icon in icono" :key="icon"   @mouseleave="icon.enseñar = false">
+            <img  :class="icon.clase" :src="icon.ruta"  @mouseover="icon.enseñar = true"  v-on:click="sh" > 
+                <p class="ti" v-show="icon.enseñar">{{icon.name}}</p>
+            
         </div>
        
     </div>
@@ -72,23 +73,24 @@
             return{
                 sol:require("@/assets/icons/modo.png"),
                 tema:false,
-                enseñar:false,
                 th:false,
                 icono:[
                     
                     {
-                        name:"V-3.2.31",
+                        name:"vue",
+                        v:"V-3.2.31",
                         clase:"cosa1",
                         ruta:require("@/assets/icons/vue.png"),
                         enseñar:false,
                     },
 
                     {
-                        name:"V-12.1.4",
+                        name:"angular",
+                        v:"V-12.1.4",
                          clase:"cosa2",
                         ruta:require("@/assets/icons/angular.png"),
                         id:1,
-                        enseñar:false,
+                       enseñar:false
 
                     },
 
@@ -100,14 +102,16 @@
                     },
 
                     {
-                        name:"V-4.3.4",
+                        name:"TypeScript",
+                        v:"V-4.3.4",
                         clase:"cosa4",
                         ruta:require("@/assets/icons/typescript.png"),
                         enseñar:false,
                     },
 
                     {
-                        name:"V-7.0.1",
+                        name:"sass",
+                        v:"V-7.0.1",
                         clase:"cosa5",
                         ruta:require("@/assets/icons/sass.png"),
                         enseñar:false,
@@ -137,7 +141,7 @@
                 },
 
                 sh(){
-                   this.enseñar = !this.enseñar
+                   this.icono.enseñar= !this.icono.enseñar
                     console.log("hola")
                    
                 },
