@@ -84,20 +84,19 @@ position: fixed;
 }
 
 .espacio{
-    width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
+    width: 40%;
+    padding: 50px;
+    margin-left: 20px;
 }
 
 .tecnologias{
-    display: flex;
     flex-direction: column;
     box-shadow:  1px 0px  40px  rgb(77, 77, 77);
     height: 800px;
     animation-name:mymove2;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(1.75, 4.82, 3.165, 5);
-
+    padding: auto;
     color: rgb(224, 178, 24);
     animation-iteration-count:1;
     position: relative;
@@ -109,15 +108,32 @@ position: fixed;
         font-size: 140%;
     }
 
+
+
 .lista-div{
- display: flex;
-justify-content: center;
-margin: 10px;
+ top: 0;
+margin: 30px;
+
 }
 
 .tecnologias2{
     display: none;
 }
+
+.im-icon{
+    width: 90px;
+}
+
+.im-icon:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.lista-div:hover::after{
+    content: "cosa";
+}
+
 
 
 
@@ -147,6 +163,15 @@ margin: 10px;
     0% {top: 0%; left: 0%; color: transparent;}
 
     25%{top: 0%; left: 100%; color:rgb(224, 178, 24) ;}
+
+}
+@keyframes agrandar{
+    0% {width: 100px;}
+
+    50%{width: 110px;}
+
+    100%{width: 100px;}
+
 
 }
 @keyframes mymove2{ 0% {top: 0%; left: 100%; color: transparent }  25%{top: 100%; left: 0%; color:rgb(224, 178, 24) }}

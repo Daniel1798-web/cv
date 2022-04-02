@@ -1,5 +1,5 @@
 <template  >
-<div class="padre "  v-bind:class=" tema ? 'negro' : 'blanco' " >
+<div class="padre "   >
   <div class="marco">
    <img class="picture" src="@/assets/icons/p1.png">
     
@@ -39,10 +39,10 @@
     <div class="tecnologias" >
         <h1 class="te">Tecnologías</h1>
         <div class="lista-div" v-for="icon in icono" :key="icon">
-                        <p v-show="enseñar">{{icon.name}}</p>
-
         <img  class="im-icon" :src="icon.ruta"  v-on:click="sh" > 
+         
         </div>
+       
     </div>
 
      <div class="tecnologias2" >
@@ -76,6 +76,7 @@
                     
                     {
                         name:"V-3.2.31",
+                        clase:class{"cosa"},
                         ruta:require("@/assets/icons/vue.png"),
                         enseñar:false,
                     },

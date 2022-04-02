@@ -3,7 +3,7 @@
   
 
 <baner/>
-<datos v-bind:class="tema ? 'negro' : 'blanco' " tema=false />
+<datos />
 
 <last />
 
