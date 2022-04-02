@@ -38,8 +38,9 @@
 
     <div class="tecnologias" >
         <h1 class="te">Tecnologías</h1>
-        <div class="lista-div" v-for="icon in icono" :key="icon">
+        <div class="lista-div" v-for="icon in icono" :key="icon" >
       <img  :class="icon.clase" :src="icon.ruta"  v-on:click="sh" > 
+            <p v-show="enseñar">{{icon.name}}</p>
         </div>
        
     </div>
@@ -72,6 +73,7 @@
                 sol:require("@/assets/icons/modo.png"),
                 tema:false,
                 enseñar:false,
+                th:false,
                 icono:[
                     
                     {
@@ -142,7 +144,10 @@
                 selected(){
                 console.log("hi")
                 this.tema = !this.tema
-                }
+                },
+                tecName(){
+                    this.enseñar = !this.enseñar
+                },
                 
               
 
