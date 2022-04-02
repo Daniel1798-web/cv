@@ -4,8 +4,9 @@
 
     <section class="section-1">
             <div class="sec-div">
-           <a target="_blank" href="https://wa.me/543516838934"> <img class="la" v-on:click="move" :src="logo.ruta"></a>   
-          <h2 class="numero">351-683-8934</h2>
+           <a target="_blank" href="https://wa.me/543516838934"> 
+           <img class="la" v-on:click="move" :src="logo.ruta"> </a>   
+          <h2 class="numero"> 351-683-8934  </h2>
         </div>
     </section>
 
@@ -14,9 +15,9 @@
 
         <a href="mailto:danrieloto@gmail.com"> 
             <img class="la" v-on:click="move2" :src="gmail"> </a>
-            <div class="dm">
+          
            <h2 class="mail"  >  danrieloto@gmail.com    </h2>
-            </div>
+            
         </div >     
     </section>
         

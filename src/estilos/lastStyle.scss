@@ -17,41 +17,39 @@
         display: grid;
         flex-direction: row;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-bottom: 100%;
+        margin-left: 100px;
 
     }
     .section-1{
      display: flex;
+    text-align: center;
     }
     
     .sec-div{
       display: flex;
-      margin-bottom: 100%;
+      justify-content: start;
 
   }
 
 
     .la{
-        margin-left: 10px;
-       
+   
+      margin-left: 10px;
+
         max-width: 50px;
     }
 
     
 
-   .l{
-       max-width: 50px;
-    }
 
     .numero{
-      font-size-adjust: none;
        position: relative;
        font-size: 25px;
-       margin-bottom: 500px;
-       margin-left: 5px;
+       margin-left: 10px;
+
+       text-align: center;
        animation-name:mymove2;
        animation-duration: 2s;
-       
        animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
        color: rgb(224, 178, 24);
        animation-iteration-count:1;
@@ -72,23 +70,17 @@
     display: flex;
     justify-content: start;
   }
-  
-  .dm{
-    margin-bottom: 300px;
-    padding-bottom: 100%;
-  }
+
 
   .mail{
 
-   
-    font-size-adjust: none;
+   text-align: center;
     position: relative;
     font-size: 20px;
     margin-left: 5px;
     animation-name:mymove2;
     animation-duration: 2s;
-    
-    animation-timing-function: cubic-bezier(0.001, 0.82, 1.165, 1);
+    animation-timing-function: cubic-bezier(0.075, 0.82, 1.165, 1);
     color: rgb(224, 178, 24);
     animation-iteration-count:1;
       
@@ -149,9 +141,12 @@
   
     
   
-    @keyframes mymove{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 50%;color: rgb(224, 178, 24); } 100%{left: 0px; top: 100%; color: rgb(224, 178, 24); }}
+    @keyframes mymove{ 0% {top: 0px; left: 0%; color: transparent } 25%{left: 0px; top: 0%;color:red; } 100%{left: 0px; top: 0%; color: rgb(255, 7, 7); }}
   
     @keyframes colores{ 0% {color: gold;} 25%{color: rebeccapurple; } 50%{color: tomato;} 100%{color: rgb(255, 22, 205);} }
-    
+    @keyframes mymove2{ 0% {top: 0px; left: 100%; color: transparent } 25%{left: 0px; top: 0%;    color: rgb(224, 178, 24);
+    } 100%{left: 0px; top: 0%;     color: rgb(224, 178, 24);
+    }}
+
 
 

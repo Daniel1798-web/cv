@@ -39,14 +39,14 @@
     <div class="tecnologias" >
         <h1 class="te">Tecnologías</h1>
         <div class="lista-div" v-for="icon in icono" :key="icon">
-        <img  class="im-icon" :src="icon.ruta"  v-on:click="sh" > 
-         
+      <img  :class="icon.clase" :src="icon.ruta"  v-on:click="sh" > 
         </div>
        
     </div>
 
      <div class="tecnologias2" >
         <h1 class="te">Tecnologías</h1>
+
         <div class="lista-div" v-for="icon in icono" :key="icon">
             <p v-show="enseñar">{{icon.name}}</p>
         <img  class="im-icon" :src="icon.ruta" v-on:click="sh"  > 
@@ -76,13 +76,14 @@
                     
                     {
                         name:"V-3.2.31",
-                        clase:class{"cosa"},
+                        clase:"cosa1",
                         ruta:require("@/assets/icons/vue.png"),
                         enseñar:false,
                     },
 
                     {
                         name:"V-12.1.4",
+                         clase:"cosa2",
                         ruta:require("@/assets/icons/angular.png"),
                         id:1,
                         enseñar:false,
@@ -91,18 +92,21 @@
 
                     {
                         name:"MongoDB",
+                        clase:"cosa3",
                         ruta:require("@/assets/icons/mongodb.png"),
                         enseñar:false,
                     },
 
                     {
                         name:"V-4.3.4",
+                        clase:"cosa4",
                         ruta:require("@/assets/icons/typescript.png"),
                         enseñar:false,
                     },
 
                     {
                         name:"V-7.0.1",
+                        clase:"cosa5",
                         ruta:require("@/assets/icons/sass.png"),
                         enseñar:false,
                     }
