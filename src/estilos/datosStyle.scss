@@ -38,16 +38,21 @@ position: fixed;
     border-radius: 20%;
     height: 200px;
     display: flex;
- 
-   
+    margin:0;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid rgb(11, 104, 11);
+    box-shadow: 2px 2px rgb(25, 175, 163);
 }
 
 .proye{
     list-style: none;
-
+    
 }
 
+
 .proyeh2{
+    padding-top: 20px;
     margin-left: 5px;
     text-align: center;
     margin: auto;
@@ -69,11 +74,24 @@ position: fixed;
 
 .pictureAlmacen{
     width: 150px;
+    position: relative;
     height: 150px;
     border-radius: 40%;
-    margin-left: 50px;
+    margin-left: 0px;
     border: 2px solid rgb(11, 104, 11);
     box-shadow: 2px 2px rgb(25, 175, 163);
+}
+
+.proye:hover{
+    content: "Proye";
+    color: black;
+    background-image: none;
+    background-color: white;
+   
+}
+
+.text-Al{
+    position: absolute;
 }
 
 .letras{

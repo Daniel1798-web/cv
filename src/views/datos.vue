@@ -3,12 +3,19 @@
   <div class="marco">
    <img class="picture" src="@/assets/icons/p1.png">
     
-    <div>
+    <div >
         <h2 class="proyeh2">Proyectos</h2>
     
         <ul class="proye2">
-            <li class="proye"><a target="_blanck" href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
-        </ul>
+            
+            <li class="proye">
+                <a target="_blanck" href="https://stock20.netlify.app/">
+                <img class="pictureAlmacen" src="@/assets/almacen.jpg">
+                <p class="text-Al">texto</p>
+            </a> 
+
+        </li>
+    </ul>
     </div>
         
   </div>
@@ -51,7 +58,10 @@
 
         <div class="lista-div" v-for="icon in icono" :key="icon" >
             <p v-show="icon.enseñar">{{icon.name}}</p>
-        <img  class="im-icon" :src="icon.ruta" v-on:click="sh" @mouseover="icon.enseñar = true" @mouseleave="icon.enseñar = false" > 
+        <img 
+        class="im-icon" 
+        :src="icon.ruta" 
+        v-on:click="sh"  @mouseover="icon.enseñar = true" @mouseleave="icon.enseñar = false" > 
         </div>
     </div>
 
