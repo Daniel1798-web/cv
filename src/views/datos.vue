@@ -8,15 +8,14 @@
          <a target="_blanck" href="https://stock20.netlify.app/">
      <img class="pictureAlmacen" src="@/assets/almacen.jpg">
         </a> 
+
+         <a target="_blanck" href="https://stock20.netlify.app/">
+     <img class="pictureSuper" src="@/assets/descarga.jpg">
+        </a>
         <div class="centrado">Stock</div>
         <ul class="proye2">
             
-            <li class="proye">
-               
-               
-         
-
-        </li>
+            <li class="proye"></li>
     </ul>
     </div>
         
@@ -24,12 +23,14 @@
     <div class="sobremi">
         <h1 >sobre mi</h1>
         
-        <p class="letras" v-bind:class="tema ? 'letrasdark' : 'letras' ">{{presentacion}}</p>
+        <p class="letras" >{{presentacion}}</p>
         
                  <div class="cont2" >
      <h2 class="proyePhone">Proyectos</h2>
         <ul class="proyePhone2">
             <li class="proyePhone3"><a target="_blanck" href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
+                   <a target="_blanck" href="https://stock20.netlify.app/">
+                    <img class="pictureSuper" src="@/assets/descarga.jpg"> </a>
         </ul>
     </div>
 

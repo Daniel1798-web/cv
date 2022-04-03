@@ -120,6 +120,17 @@ position: fixed;
    
 }
 
+.pictureSuper{
+    width: 160px;
+    position: relative;
+    height: 150px;
+    border-radius: 40%;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 2px solid rgb(11, 104, 11);
+    box-shadow: 2px 2px rgb(25, 175, 163);
+}
+
 .text-Al{
     position: absolute;
 }
@@ -141,11 +152,12 @@ position: fixed;
     flex-direction: column;
     box-shadow:  1px 0px  40px  rgb(77, 77, 77);
     height: 800px;
-    animation-name:mymove2;
+    animation-name:mymove3;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(1.75, 4.82, 3.165, 5);
     padding: auto;
-    color: rgb(224, 178, 24);
+    color: rgb(0, 0, 0);
+    
     animation-iteration-count:1;
     position: relative;
 }
@@ -154,8 +166,11 @@ position: fixed;
     .te{
         text-align: center;
         font-size: 140%;
+        background-color: rgb(211, 211, 211);
+        box-shadow:  1px 2px 3px 4px rgb(148, 148, 148);
     }
 
+    
 
 
 .lista-div{
@@ -211,6 +226,7 @@ margin: 30px;
     margin: 0;
     text-align: center;
     margin-right: 10px;
+    color: black;
 }
 
 
@@ -256,3 +272,4 @@ margin: 30px;
 
 }
 @keyframes mymove2{ 0% {top: 0%; left: 100%; color: transparent }  25%{top: 100%; left: 0%; color:rgb(224, 178, 24) }}
+@keyframes mymove3{ 0% {top: 0%; left: 100%; color: transparent }  25%{top: 100%; left: 0%; }}
