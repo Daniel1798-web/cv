@@ -7,8 +7,7 @@
             display: grid;
             grid-template-columns: 1fr ;
            padding-bottom: 10px;
-            position: relative;
-         
+           position: unset;
         }
 
         .letrasdark{
@@ -25,7 +24,7 @@
        
         .picture{
             margin: auto;
-            margin-top: 5px;
+            margin-top: 20px;
             border: 2px solid rgb(11, 104, 11);
             box-shadow: 2px 2px rgb(25, 175, 163);
             width: 200px;
@@ -34,12 +33,18 @@
             text-align: center;
         }
 
+        .cont2{
+            position: unset;
+        }
+
         
 
         .pictureAlmacen{
             border: 2px solid rgb(11, 104, 11);
             margin: auto;
+            margin-right: 40px;
             justify-content: center;
+            position: unset;
             box-shadow: 2px 2px rgb(25, 175, 163);
         }
 

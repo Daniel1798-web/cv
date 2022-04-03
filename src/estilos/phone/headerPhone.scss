@@ -5,10 +5,11 @@
 
 .f{
     max-width: 100%;
+    
     background-color: rgb(67, 136, 121);
     display: flex;
     top:0;
-    position: relative;
+    position: fixed;
 }
 
 
@@ -18,6 +19,7 @@
     display: block;
     width: 100%;
     top:0;
+    position: fixed;
     
 }
 

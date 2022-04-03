@@ -8,7 +8,7 @@
          <a target="_blanck" href="https://stock20.netlify.app/">
      <img class="pictureAlmacen" src="@/assets/almacen.jpg">
         </a> 
-        <div class="centrado">Centrado</div>
+        <div class="centrado">Stock</div>
         <ul class="proye2">
             
             <li class="proye">
@@ -26,7 +26,7 @@
         
         <p class="letras" v-bind:class="tema ? 'letrasdark' : 'letras' ">{{presentacion}}</p>
         
-                 <div >
+                 <div class="cont2" >
      <h2 class="proyePhone">Proyectos</h2>
         <ul class="proyePhone2">
             <li class="proyePhone3"><a target="_blanck" href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
