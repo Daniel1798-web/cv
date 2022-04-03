@@ -3,16 +3,18 @@
   <div class="marco">
    <img class="picture" src="@/assets/icons/p1.png">
     
-    <div >
+    <div class="cont">
         <h2 class="proyeh2">Proyectos</h2>
-    
+         <a target="_blanck" href="https://stock20.netlify.app/">
+     <img class="pictureAlmacen" src="@/assets/almacen.jpg">
+        </a> 
+        <div class="centrado">Centrado</div>
         <ul class="proye2">
             
             <li class="proye">
-                <a target="_blanck" href="https://stock20.netlify.app/">
-                <img class="pictureAlmacen" src="@/assets/almacen.jpg">
-                <p class="text-Al">texto</p>
-            </a> 
+               
+               
+         
 
         </li>
     </ul>

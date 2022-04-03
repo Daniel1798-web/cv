@@ -71,6 +71,32 @@ position: fixed;
     display: none;
 }
 
+.cont{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.centrado{
+    position: absolute;
+    color: transparent;
+    top: 60%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.centrado:hover{
+    color: rgb(0, 255, 213);
+    
+   
+    width: 100%;
+   
+}
 
 .pictureAlmacen{
     width: 150px;
@@ -82,11 +108,13 @@ position: fixed;
     box-shadow: 2px 2px rgb(25, 175, 163);
 }
 
-.proye:hover{
+.pictureAlmacen:hover{
     content: "Proye";
     color: black;
     background-image: none;
     background-color: white;
+
+    background-image: none;
    
 }
 
