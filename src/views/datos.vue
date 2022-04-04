@@ -8,11 +8,12 @@
          <a target="_blanck" href="https://stock20.netlify.app/">
      <img class="pictureAlmacen" src="@/assets/almacen.jpg">
         </a> 
+      
 
          <a target="_blanck" href="https://stock20.netlify.app/">
      <img class="pictureSuper" src="@/assets/descarga.jpg">
         </a>
-        <div class="centrado">Stock</div>
+        
         <ul class="proye2">
             
             <li class="proye"></li>
