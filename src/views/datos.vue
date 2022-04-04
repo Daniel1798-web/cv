@@ -22,9 +22,9 @@
         
   </div>
     <div class="sobremi">
-        <h1 >sobre mi</h1>
+        <h1 class="am">sobre mi</h1>
         <p class="letras" >{{presentacion}}</p>
-        
+       
                  <div class="cont2" >
      <h2 class="proyePhone">Proyectos</h2>
         <ul class="proyePhone2">
