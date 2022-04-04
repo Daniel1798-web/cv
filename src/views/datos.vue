@@ -60,11 +60,12 @@
         <h1 class="te">Tecnologías</h1>
 
         <div class="lista-div" v-for="icon in icono" :key="icon" >
-            <p v-show="icon.enseñar">{{icon.name}}</p>
+         
         <img 
-        class="im-icon" 
+        :class="icon.clase"
         :src="icon.ruta" 
         v-on:click="sh"  @mouseover="icon.enseñar = true" @mouseleave="icon.enseñar = false" > 
+           <p class="ti" v-show="icon.enseñar">{{icon.name}}</p>
         </div>
     </div>
 

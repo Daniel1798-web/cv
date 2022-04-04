@@ -205,12 +205,61 @@
             
         }
 
+        
+.cosa1:hover{
+    content: "cosita";
+    animation-name: agrandar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.cosa2:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.cosa3:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.cosa4:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.cosa5:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.ti{
+    margin: 0;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 0px;
+    color: black;
+}
     
 
         
 
      
-        
+@keyframes agrandar{
+    0% {width: 90px;}
+
+
+    50%{width: 100px;}
+
+    100%{width: 90px;}
+
+
+}
           @keyframes mymove2{ 0% {top: 100%; left: 0%; color: transparent }  25%{top: 0%; left: 0%; color:rgb(224, 178, 24) }}
         
         
