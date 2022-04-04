@@ -40,7 +40,7 @@ export default{
              tema:false,
             rutaGit:"https://github.com/Daniel1798-web",
             rutaLink:"https://www.linkedin.com/in/daniel-oto-diaz-45282a21b/",
-            rutaCV:"https://docdro.id/mFQAnE9",
+            rutaCV:"https://docdro.id/YJYbfjE",
         }
     },
 
