@@ -8,6 +8,8 @@
       <div class="icons">
           <a target="_blanck" :href=rutaLink><img class="logo-link" src="@/assets/icons/link.png" alt="logo"></a>
           <a target="_blanck" :href=rutaGit><img class="logo-link" src="@/assets/icons/github.png"></a>
+          <a target="_blanck" :href=rutaCV><img class="logo-link2" src="@/assets/icons/c.png"></a>
+
       </div>
   </section>
   <nav class="na">
@@ -38,6 +40,7 @@ export default{
              tema:false,
             rutaGit:"https://github.com/Daniel1798-web",
             rutaLink:"https://www.linkedin.com/in/daniel-oto-diaz-45282a21b/",
+            rutaCV:"https://docdro.id/mFQAnE9",
         }
     },
 
