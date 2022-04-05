@@ -1,16 +1,16 @@
 <template  >
 <div class="padre "   >
   <div class="marco">
-   <img class="picture" src="@/assets/icons/p1.png">
+   <img class="picture" src="@/assets/icons/p3.png">
     
     <div class="cont">
         <h2 class="proyeh2">Proyectos</h2>
-         <a target="_blanck" href="https://stock20.netlify.app/">
+         <a target="_blank" href="https://stock20.netlify.app/">
      <img class="pictureAlmacen" src="@/assets/almacen.jpg">
         </a> 
       
 
-         <a target="_blanck" href="https://stock20.netlify.app/">
+         <a target="_blank" href="https://stock20.netlify.app/">
      <img class="pictureSuper" src="@/assets/descarga.jpg">
         </a>
         
@@ -22,7 +22,7 @@
         
   </div>
     <div class="sobremi">
-        <h1 class="am">sobre mi</h1>
+        <h1 class="am">sobre mí</h1>
         <p class="letras" >{{presentacion}}</p>
        
                  <div class="cont2" >
@@ -135,7 +135,7 @@
                 presentacion:`Hola, me llamo Daniel. Empecé a estudiar 
                 por mi cuenta Programación web hace dos años. De todas las tecnologías, 
                 la que más me interesó fue JavaScript, 
-                me encantó las infinitas posibilidades que ofrece y la cantidad de frameworks disponibles. 
+                me encantaron las infinitas posibilidades que ofrece y la cantidad de frameworks disponibles. 
                 
                 `
             }
