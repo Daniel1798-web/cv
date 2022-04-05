@@ -163,7 +163,6 @@ position: fixed;
     animation-timing-function: cubic-bezier(1.75, 4.82, 3.165, 5);
     padding: auto;
     color: rgb(0, 0, 0);
-    
     animation-iteration-count:1;
     position: relative;
 }
@@ -180,8 +179,8 @@ position: fixed;
 
 
 .lista-div{
- top: 0;
 margin: 30px;
+height: 105px;
 
 }
 
@@ -200,6 +199,7 @@ margin: 30px;
     content: "cosita";
     animation-name: agrandar;
     animation-duration: 2s;
+    width: 100%;
     animation-iteration-count: infinite;
 }
 
@@ -268,7 +268,7 @@ margin: 30px;
 
 }
 @keyframes agrandar{
-    0% {width: 90px;}
+    0% {width: 100px;}
 
 
     50%{width: 110px;}

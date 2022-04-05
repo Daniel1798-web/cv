@@ -193,8 +193,12 @@
         }
 
         .tecnologias2{
-            display: grid;
-           
+            box-shadow:  1px 1px  10px 10px rgb(30, 145, 139);
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            position: static;
+            
         }
 
         .tecnologias h1{
@@ -204,51 +208,67 @@
 
         .lista-div{
            
-            display: flex;
-            flex-direction: row;
+           display: flex;
+           flex-direction: row;
            justify-content: center;
            margin-bottom: 70px;
+           padding: 0;
+           margin-top: 0;
+           height: 90px;
+           width: 320px;
           
             
         }
 
+       
+
+        .cosa1 , .cosa2 , .cosa3 , .cosa4 , .cosa5{
+            width: 90px;
+            padding: 0;
+            margin: 0;
+        }
+
         
-.cosa1:hover{
-    content: "cosita";
-    animation-name: agrandar;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
+      .cosa1:hover{
+        content: "cosita";
+        animation-name: agrandar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    .cosa2:hover{
+        animation-name: agrandar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    .cosa3:hover{
+        animation-name: agrandar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    .cosa4:hover{
+        animation-name: agrandar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .cosa5:hover{
+        animation-name: agrandar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
 
-.cosa2:hover{
-    animation-name: agrandar;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
+        
 
-.cosa3:hover{
-    animation-name: agrandar;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.cosa4:hover{
-    animation-name: agrandar;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-
-.cosa5:hover{
-    animation-name: agrandar;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
 
 .ti{
     margin: 0;
     text-align: center;
     margin-top: 50px;
+
     margin-right: 0px;
     color: black;
 }
@@ -258,12 +278,12 @@
 
      
 @keyframes agrandar{
-    0% {width: 90px;}
+    0% {width: 100px; height: 100px;}
 
 
-    50%{width: 100px;}
+    50%{width: 110px; height: 110px;}
 
-    100%{width: 90px;}
+    100%{width: 100px; height: 100px;}
 
 
 }
