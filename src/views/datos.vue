@@ -59,13 +59,16 @@
      <div class="tecnologias2" >
         <h1 class="te">Tecnologías</h1>
 
-        <div class="lista-div" v-for="icon in icono" :key="icon" >
-         
+        <div class="lista-div" v-for="icon in icono" :key="icon">    
+        
+        <div v-on:click="sh">
         <img 
         :class="icon.clase"
         :src="icon.ruta" 
-        v-on:click="sh"  @mouseover="icon.enseñar = true" @mouseleave="icon.enseñar = false" > 
-           <p class="ti" v-show="icon.enseñar">{{icon.name}}</p>
+        @mouseover="icon.enseñar = true" @mouseleave="icon.enseñar = false" >   
+            <p class="ti" v-show="icon.enseñar" >{{icon.name}}</p>
+
+        </div> 
         </div>
     </div>
 
