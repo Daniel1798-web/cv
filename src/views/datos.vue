@@ -41,10 +41,7 @@
     
 
    <div class="espacio">
-         <input type="text" v-model="edad" >
-            {{edad}}
-            <p v-show="m">Eres mayor</p>
-            <p v-show="m = false"> tas tikito</p>
+       
 </div>
     
 
