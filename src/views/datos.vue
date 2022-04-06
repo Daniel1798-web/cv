@@ -41,7 +41,10 @@
     
 
    <div class="espacio">
-     
+         <input type="text" v-model="edad" >
+            {{edad}}
+            <p v-show="m">Eres mayor</p>
+            <p v-show="m = false"> tas tikito</p>
 </div>
     
 
@@ -91,6 +94,8 @@
                 sol:require("@/assets/icons/modo.png"),
                 tema:false,
                 th:false,
+                edad:0,
+                m:false,
                 icono:[
                     
                     {
@@ -143,7 +148,7 @@
                 `
             }
         },
-        methods:{
+        computed:{
                 animar(){
                   //setInterval(this.animacion,1000)
                     console.log("hola")
@@ -170,6 +175,10 @@
                     this.enseñar = !this.enseñar
                 },
                 
+                mayor(){
+                    this.edad >  18
+                    this.m = true
+                }
               
 
            
