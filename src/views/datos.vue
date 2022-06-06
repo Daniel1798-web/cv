@@ -28,8 +28,8 @@
                  <div class="cont2" >
      <h2 class="proyePhone">Proyectos</h2>
         <ul class="proyePhone2">
-            <li class="proyePhone3"><a target="_blanck" href="https://stock20.netlify.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
-                   <a target="_blanck" href="https://stock20.netlify.app/">
+            <li class="proyePhone3"><a target="_blanck" href="https://daniel1798-web-github-io.vercel.app/"><img class="pictureAlmacen" src="@/assets/almacen.jpg"></a></li>
+                   <a target="_blanck" href="https://daniel1798-web-github-io.vercel.app/">
                     <img class="pictureSuper" src="@/assets/descarga.jpg"> </a>
         </ul>
     </div>
