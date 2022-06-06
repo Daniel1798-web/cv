@@ -5,12 +5,12 @@
     
     <div class="cont">
         <h2 class="proyeh2">Proyectos</h2>
-         <a target="_blank" href="https://stock20.netlify.app/">
+         <a target="_blank" href="https://daniel1798-web-github-io.vercel.app/">
      <img class="pictureAlmacen" src="@/assets/almacen.jpg">
         </a> 
       
 
-         <a target="_blank" href="https://stock20.netlify.app/">
+         <a target="_blank" href="https://daniel1798-web-github-io.vercel.app/">
      <img class="pictureSuper" src="@/assets/descarga.jpg">
         </a>
         
